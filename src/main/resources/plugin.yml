@@ -1,0 +1,11 @@
+name: MusicPackPlayer
+version: ${project.version}
+main: com.gmail.anthony17j.musicpackplayer.MusicPackPlayer
+api-version: 1.17
+authors: [ Uxzylon ]
+description: Permet de jouer des sons et musiques dans des régions depuis un ressource pack
+depend: [WorldGuard]
+commands:
+  musicpack:
+    description: Permet de modifier la configuration des musiques dans les régions
+    usage: /<command>
